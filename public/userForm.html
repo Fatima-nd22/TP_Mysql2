@@ -9,7 +9,7 @@
 <body>
   <div class="form-container">
     <h2>Ajouter un Utilisateur</h2>
-    <form action="#" method="post">
+    <form action="#" method="post" id="userForm">
         <div class="form-group">
             <label for="matricule">Matricule</label>
             <input type="text" id="matricule" name="matricule" placeholder="Entrez votre matricule" required>
@@ -28,11 +28,11 @@
       </div>
       <div class="form-group">
         <label for="niveau">Niveau</label>
-        <input type="password" id="password" name="password" placeholder="Entrez votre niveau" required>
+        <input type="text" id="niveau" name="niveau" placeholder="Entrez votre niveau" required>
       </div>
-      <button type="submit" class="btn">Add</button>
+      <button type="submit" class="btn" id="add">Add</button>
     </form>
   </div>
-  <script src="server.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
